@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mi Sitio</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <h1 class="text-center text-primary mb-4">Pruebas de Bootstrap</h1>
+
+    <hr>
+
+    <h3 class="mt-4">Colores de texto</h3>
+    <p class="text-primary">Texto azul primario</p>
+    <p class="text-success">Texto verde</p>
+    <p class="text-danger">Texto rojo</p>
+    <p class="text-warning">Texto amarillo</p>
+    <p class="text-muted">Texto gris tenue</p>
+
+    <hr>
+
+    <h3 class="mt-4">Botones</h3>
+    <button class="btn btn-primary">Primario</button>
+    <button class="btn btn-success">Éxito</button>
+    <button class="btn btn-danger">Peligro</button>
+    <button class="btn btn-outline-dark">Contorno</button>
+
+    <hr>
+
+    <h3 class="mt-4">Grid (filas y columnas)</h3>
+    <div class="row">
+        <div class="col-4 bg-light border p-3">Columna 1</div>
+        <div class="col-4 bg-light border p-3">Columna 2</div>
+        <div class="col-4 bg-light border p-3">Columna 3</div>
+    </div>
+
+    <hr>
+
+    <h3 class="mt-4">Cards</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Card básica</h5>
+                    <p class="card-text">Este es un ejemplo de tarjeta con Bootstrap.</p>
+                    <a href="#" class="btn btn-primary">Acción</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-header">Encabezado</div>
+                <div class="card-body">
+                    <p class="card-text">Las cards permiten organizar contenido de forma clara.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h3 class="mt-4">Formulario</h3>
+    <form class="mb-5">
+        <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control" placeholder="Escribe tu nombre">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Correo</label>
+            <input type="email" class="form-control" placeholder="correo@example.com">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mensaje</label>
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+
+        <button class="btn btn-primary">Enviar</button>
+    </form>
+
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
